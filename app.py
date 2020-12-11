@@ -6,7 +6,7 @@ import sys
 
 def GetCred():
     wlc = input("Enter IP of WLC: ")
-    wlc_username = input("wlc Username (admin): ") or "admin"
+    wlc_username = input("wlc Username: ")
     wlc_password = getpass.getpass()
     return wlc, wlc_username, wlc_password
 
